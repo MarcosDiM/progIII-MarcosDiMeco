@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico HTML</title>
+    <link rel="stylesheet" href="/practicoCSS.css">
+</head>
+
+<header>
+    <section id="inicio"><h1>Practico HTML</h1></section>
+    <nav>
+        <ul>
+            <li><a href="#encabezados">Encabezados</a></li>
+            <li><a href="#estilo_texto">Estilo de texto</a></li>
+            <li><a href="#divisiones">Divisiones</a></li>
+            <li><a href="#listas">Listas</a</li>
+            <li><a href="#elementos_multimedia">Elementos multimedia</a></li>
+            <li><a href="#tablas">Formularios</a></li>
+            <li><a href="#formularios">Formularios</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <!-- Utilizacion encabezados -->
+    <section id="encabezados">
+        <h2> Titulo h2</h2>
+        <h3> Titulo h3</h3>
+        <h4> Titulo h4</h4>
+        <h5> Titulo h5</h5>
+        <h6> Titulo h6</h6>
+    </section>
+    <!-- Estilos de texto -->
+    <section id="estilo_texto">
+        <h2>Estilos de texto</h2>
+        <strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis voluptate rem quis delectus ex <br></strong>
+        <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto architecto saepe vero veritatis unde <br></em>
+        <u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero error minima corrupti alias <br></u>
+        <del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veniam optio fugiat itaque error velit. <br></del>    
+    </section>
+    <!-- Divisiones -->
+    <section id="divisiones">
+        <h2>Divisiones</h2>
+        <div>
+            <h3>Seccion 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur blanditiis laborum, doloribus nesciunt soluta autem incidunt dolore sapiente ex sunt assumenda.</p>
+        </div>
+        <div>
+            <h3>Seccion 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error dolores accusamus cum dicta, ad magni sunt repudiandae magnam. </p>
+        </div>
+    </section>
+    <!-- Listas -->
+    <section id="listas">
+        <h2>Listas</h2>
+        <h4> Sigue nuestra actualidad desde nuestro <a href="https://www.instagram.com/" target="_blank"> instagram</a></h4>
+        <h3>Enlaces internos</h3>
+        <ul>
+            <li> <a href="imagenes.html"> Vea nuestras imagenes</a></li>
+            <li> <a href="informacion.html"> Mas informacion sobre nosotros</a></li>
+        </ul>
+        <h3>Lista desordenada</h3>
+        <ul>
+            <li>Primer elemento</li>
+            <li>Segundo elemento</li>
+        </ul>
+        <h3>Lista ordenada</h3>
+        <ol>
+            <li>Primer puesto</li>
+            <li>Segundo puesto</li>
+            <li>Tercer puesto</li>
+        </ol>
+    </section>
+    
+    <!-- Elementos multimedia -->
+    <section id="elementos_multimedia">
+        <h2>Elementos multimedia</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQylKr6oUxna90I3YBCLbCs6cEINao2AAVwVg&s" alt="programacion front end"> <br>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/6D25A8_50Jk?si=M3WYppr6psEBeHYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3ysdjdpzmWMWjUy3v1eDQH?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> <br>   
+    </section>
+    
+    <!-- Tablas -->
+    <section id="tablas">
+        <h2>Tablas</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>DNI</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marcos</td>
+                    <td>Di Meco</td>
+                    <td>12345678</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>Lopez</td>
+                    <td>12345678</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <!-- Formularios -->
+    <section id="formularios">
+        <h2>Formularios</h2>
+        <form action="">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" required> <br>
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" required> <br>
+            <label for="dni">DNI: </label>
+            <input type="number" id="dni" name="dni" pattern="\d{7,10}" required> <br>
+            <button type="submit"> Enviar </button>
+        </form>
+    </section>
+</body>
+<footer>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.facebook.com/?locale=es_LA" target="_blank">Facebook</a></li>
+        <li>Whatsapp : 261 123456</li>
+    </ul>
+</footer>
+</html>
