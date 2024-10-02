@@ -30,7 +30,7 @@ export const openModal = () => {
         const nombre = document.getElementById("nombre");
         const imagen = document.getElementById("img");
         const precio = document.getElementById("precio");
-        const categories = document.getElementById("categoria");
+        const categories = document.getElementById("categories");
         
         nombre.value = productoActivo.nombre;
         imagen.value = productoActivo.imagen;
@@ -50,7 +50,7 @@ const resetModal = () => {
     const nombre = document.getElementById("nombre");
     const imagen = document.getElementById("img");
     const precio = document.getElementById("precio");
-    const categories = document.getElementById("categoria");
+    const categories = document.getElementById("categories");
 
     nombre.value = "";
     imagen.value = "";

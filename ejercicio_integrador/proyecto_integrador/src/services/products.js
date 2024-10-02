@@ -18,7 +18,7 @@ const handleSaveOrModifyElements = () =>{
     const nombre = document.getElementById("nombre").value;
     const imagen = document.getElementById("img").value;
     const precio = document.getElementById("precio").value;
-    const categories = document.getElementById("categoria").value;
+    const categories = document.getElementById("categories").value;
     let object = null;
     if(productoActivo){
         object = {
